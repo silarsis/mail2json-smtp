@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/bin/bash
 #
 # Script to ease updating of the gh-pages branch for pushing out scripts
 

@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/bin/bash
 #
 # Script to create user, install software, and run server
 # This will theoretically run on any server, but is designed
