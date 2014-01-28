@@ -1,4 +1,4 @@
-#!/bin/env ruby
+#!/usr/bin/ruby
 
 require mini_smtp_server
 
