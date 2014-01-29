@@ -6,7 +6,6 @@
 
 set -e
 
-apt-get update
 apt-get -y -q install ruby1.9.3 git
 hash -r
 gem install mini-smtp-server

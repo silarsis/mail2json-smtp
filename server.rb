@@ -2,7 +2,7 @@
 #
 # This server will take email via SMTP, and push it into Kafka.
 
-require mini_smtp_server
+require 'mini-smtp-server'
 
 class StdoutSmtpServer < MiniSmtpServer
 
