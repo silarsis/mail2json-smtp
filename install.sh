@@ -6,7 +6,7 @@
 
 set -e
 
-apt-get -y install ruby git
+apt-get -y install ruby1.9.3 git
 hash -r
 gem install mini-smtp-server
 adduser --disabled-login --gecos "" smtp
