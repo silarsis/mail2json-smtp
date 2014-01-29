@@ -9,6 +9,7 @@ set -e
 apt-get -y -q install ruby1.9.3 git
 hash -r
 gem install mini-smtp-server
+gem install poseidon
 adduser --disabled-login --gecos "" smtp
 cd ~smtp
 su smtp -c "git clone https://github.com/silarsis/mail2json-smtp.git"
