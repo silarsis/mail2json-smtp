@@ -1,4 +1,6 @@
 #!/usr/bin/ruby
+#
+# This server will take email via SMTP, and push it into Kafka.
 
 require mini_smtp_server
 
