@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:quantal
 MAINTAINER Kevin Littlejohn, kevin@littlejohn.id.au
 RUN apt-get -y -q update
 RUN apt-get -y -q install curl
